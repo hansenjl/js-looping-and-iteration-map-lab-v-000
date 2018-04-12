@@ -12,7 +12,7 @@ function nameToAttributes(array){
 
 function attributesToPhrase(array){
   return array.map(function(obj){
-    return 
+    return `${obj.name} is from ${obj.hometown}`
   })
 }
    
