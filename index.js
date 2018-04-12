@@ -9,4 +9,8 @@ function nameToAttributes(array){
   return array.map(function (driver) { return { firstName: driver.split(' ')[0], lastName: driver.split(' ')[1] } })
 }
 
+
+function attributesToPhrase(){
+  
+}
    
